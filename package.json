@@ -1,0 +1,20 @@
+{
+  "name": "videodl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env YTDL_NO_UPDATE=1 node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+    "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
