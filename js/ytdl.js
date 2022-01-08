@@ -51,7 +51,7 @@ function fetchMp4(obj, mp4Emitter) {
       if (estimate == 0) {
         estimate = 1;
       }
-      if ((obj.length / estimate) >= 800) { 
+      if ((obj.length / estimate) >= 1600) { 
         mp4Emitter.emit(newEventID, -1); 
         video.destroy();
         start();
